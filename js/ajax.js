@@ -57,6 +57,7 @@ $(document).ready(function () {
             success: function (data) {
                 $("#theamI").val("");
                 $("#MessI").val("");
+                $("#EmailI").val("");
                 $("#resformM").html(data);
             }
         });

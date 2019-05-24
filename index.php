@@ -91,6 +91,16 @@ require_once "php/bd.php";
                                required>
                     </div>
                     <div class="form-froup">
+                        <input id="EmailI"
+                               class="form-control"
+                               placeholder="E-mail"
+                               type="email"
+                               name="EmailN"
+                               maxlength="35"
+                               minlength="4"
+                               required>
+                    </div>
+                    <div class="form-froup">
 
                         <textarea class="form-control" name="MessN" id="MessI" rows="3"  required minlength="7"
                                   maxlength="162" placeholder="Сообщение"></textarea>
@@ -98,7 +108,6 @@ require_once "php/bd.php";
                     </div>
                     <input type="submit" class="btn btn-success btn-primary" name="mail"
                            value="Отправить">
-
                 </form>
                 <div id="resformM"></div>
             </div>
